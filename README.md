@@ -15,7 +15,7 @@ is unlimited, which is ensured by the implementation of a **Thread Pool**.
 ## How the Thread Pool works
 Each **thread** can execute several requests, that is, it can work for several clients (participants) iteratively. After finishing a client's request, it will move on to the next available client.The number of **threads** used by the application increases depending on how many requests must be executed.
 ### Implementation
-![ThreadPool class][./pictures/thread_pool.png]
+![ThreadPool class](./pictures/thread_pool.png)
 
 ## Application Level Protocol
 * The client will wait for the quiz to start
@@ -55,5 +55,5 @@ make
 ```
 
 ## Example of use
-![clients][./pictures/quiz2.png]
-![server][./pictures/quiz1.png]
+![clients](./pictures/quiz2.png)
+![server](./pictures/quiz1.png)
